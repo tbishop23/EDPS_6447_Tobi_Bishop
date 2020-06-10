@@ -29,30 +29,38 @@
 			<div class="row justify-content-center align-items-center h-100">
 				<div id="sec_landing" class="col-8 col-md-6 col-lg-4">
 					<div class="card">
-						<div class="card-header">QUIZ WARS</div>
+						<div class="card-header">How Hard Can You Tri?</div>
 						<div class="card-body">
 							<form>
-								<label for="input_username">Enter your username: </label>
-								<input id="input_username" class="form-control" type="text" placeholder="Han Solo">
+								<label for="input_username">Enter your name: </label>
+								<input id="input_username" class="form-control" type="text" placeholder="Chrissie Wellington">
 							</form>
-							<button id="btn_start" type="button" class="btn btn-secondary w-100 mt-3">Start</i></button>
-							<button id="btn_tutorial" type="button" class="btn btn-secondary w-100 mt-1" disabled>Tutorial</i></button>
+							<button id="btn_start" type="button" class="btn btn-secondary w-100 mt-3">Start</button>
+							<button id="btn_tutorial" type="button" class="btn btn-secondary w-100 mt-1" disabled>Tutorial</button>
 						</div>
 					</div>
 				</div>
 				<div id="sec_quiz" class="col-10 col-md-8 col-lg-6">
 					<div class="card">
-						<div class="card-header">QUIZ WARS</div>
+						<div class="card-header">TRI HARD</div>
 						<div class="card-body">
-							<p class="font-weight-bold">Read the statement carefully and indicate whether it is True or False</p>
-							<p id="text_statement" class="font-italic">Javascript variables are containers for storing data values.</p>
+							<p class="font-weight-bold">Read the statement carefully and select the correct answer</p>
+							<p id="text_statement" class="font-italic"></p>
 							<div class="form-check">
-								<input class="form-check-input" type="radio" name="quizzlet_input" id="input_1" value="option1" checked />
-								<label class="form-check-label" for="input_1">True</label>
+								<input class="form-check-input" type="radio" name="quizzlet_input" id="input_1" value="option1" />
+								<label class="form-check-label" for="input_1"></label>
 							</div>
-							<div class="form-check mb-3">
-								<input class="form-check-input" type="radio" name="quizzlet_input" id="input_2" value="option2" />
-								<label class="form-check-label" for="input_2">False</label>
+                            <div class="form-check">
+								<input class="form-check-input" type="radio" name="quizzlet_input" id="input_2" value="option2"/>
+								<label class="form-check-label" for="input_2"></label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="quizzlet_input" id="input_3" value="option3" />
+								<label class="form-check-label" for="input_3"></label>
+							</div>
+                            <div class="form-check">
+								<input class="form-check-input" type="radio" name="quizzlet_input" id="input_4" value="option4" />
+								<label class="form-check-label" for="input_4"></label>
 							</div>
 							<div id="cont_success" class="alert alert-success d-none" role="alert">
 								Your answer is correct.
@@ -83,11 +91,8 @@
 						</div>
 					</div>
 					<div class="alert alert-warning mt-3">
-						<span><i class="fas fa-jedi mb-3"></i> Jedi Star Coder</span>
-						<p id="text_agent_dialogue">
-							Javascript is what gives a coder his power. It's a programming field created by all living developers. It surrounds us and
-							penetrates us. It binds your one-day Amazon deliveries.
-						</p>
+                        <span><i class="fas fa-swimmer"></i><i class="fas fa-biking"></i><i class="fas fa-running"></i> Triathlon Tidbit</span> 
+						<p id="text_agent_dialogue"></p>
 					</div>
 				</div>
 			</div>
@@ -109,7 +114,9 @@
 			src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
 			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
 			crossorigin="anonymous"
-		></script>	
-        <script src="js/variable.js"></script>
+		></script>
+		<script src="js/variable.js"></script>
+		<script src="js/data.js"></script>
+        <script src="js/listener.js"></script>
 	</body>
 </html>
