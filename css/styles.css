@@ -2,13 +2,47 @@
 	font-family: "Montserrat", sans-serif;
 }
 body {
-	background: rgb(255, 255, 255);
-	background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(204, 204, 204, 1) 100%);
+	background-image: url(/images/swimbikerun.jpg);
+    background-size: 35%;
+    background-position: center;
+    background-repeat: repeat;
+    background-color: #47B1BD;
 }
 div.card,
 div.alert-warning {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.12);
 }
+
+div.alert-hint {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.12);
+    background-color: #c78e45;
+    color: white;
+}
+
 .card-header {
 	text-align: center;
+    background-color: #c78e45;
+    color: white;
 }
+
+#btn_start {
+    background-color: #2d7be7;
+}
+
+#btn_tutorial {
+    background-color: #3a814c;
+}
+
+#quiz-header {
+	text-align: center;
+    background-color: #2d7be7;
+    color: white;
+}
+
+#btn_submit,
+#btn_previous,
+#btn_hint,
+#btn_next {
+    background-color: #3a814c;
+}
+]

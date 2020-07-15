@@ -4,7 +4,7 @@ var array_questions = [
 		topic: "traithlon",
 		sub_topic: "distance",
 		answer_key: "option4",
-		hint: "https://www.theactivetimes.com/triathlon-distances",
+		hint: "Here's a breakdown of the four most common triathlon distances available: Sprint Triathlon—0.465 mile swim / 12.5 mi bike / 3.1 mi run; Standard or Olympic Triathlon—0.93 mile swim / 25 mi bike / 6.2 mi run; Half-Ironman or 70.3 Triathlon—1.2 mile swim / 56 mi bike / 13.1 mi run;  Ironman Triathlon—2.4 mile swim / 112 mi bike / 26.2 mi run (www.active.com)",
         type: "multiple_choice",
         labels: ["Ironman", "Sprint", "Olympic", "Too long"],
         video: {display: "false", source: "N/A"},
@@ -14,10 +14,10 @@ var array_questions = [
 		statement: "What is the correct order for a triathlon?",
 		topic: "traithlon",
 		sub_topic: "format",
-		answer_key: "option2",
+		answer_key: "option3",
 		hint: "This may be common sense, but many people ask why the order of a triathlon goes [the way it does]. It's simple—it's ordered based on safety. The swim is first so athletes are in the water when they're fresh and not exhausted after two other legs. You can always stop to walk your bike or pause during the run, but unfortunately you can't really stop and take a breather during the swim. (www.active.com)",
         type: "multiple_choice",
-        labels: ["Run, bike, swim", "Swim, bike, run", "Swim, run, bike", "Swim, lunch break, nap"],
+        labels: ["Run, bike, swim", "Swim, lunch break, nap", "Swim, bike, run", "Swim, run, bike", ],
         video: {display: "false", source: "N/A"},
         tri_tidbit:"It may be gross, but to a triathlete peeing your pants is almost a rite of passage. Triathletes pee in their wetsuits during the swim, pee on their bike while in the saddle and pee while running. In a sport where every second counts, a bathroom stop might mean the difference between a spot on the podium and fourth place. (www.active.com)"
 	},
@@ -28,7 +28,7 @@ var array_questions = [
 		answer_key: "option1",
 		hint: "In between each discipline there is a transition: changing from swim to bike and then again from bike to run.",
         type: "multiple_choice",
-        labels: ["Transition 1 and Transition 2", "First Turnaround and Second Turnaround", "Time 2 and Time 2", "Take-a-break and Time-to-go-home"],
+        labels: ["Transition 1 and Transition 2", "First Turnaround and Second Turnaround", "Time 1 and Time 2", "Take-a-break and Time-to-go-home"],
         video: {display: "false", source: "N/A"},
         tri_tidbit:"The standard cut-off time to finish an Ironman is 17 hours. The current fastest Ironman finish time is 7:35:39."
 	},
@@ -37,9 +37,9 @@ var array_questions = [
 		topic: "traithlon",
 		sub_topic: "distance",
 		answer_key: "option4",
-		hint: "A half Ironman is a 1.2 mile swim, 56 mile bike, and 13.1 mile run. All that mileage adds up!",
+		hint: "A half Ironman is a 1.2 mile swim, 56 mile bike, and 13.1 mile run. All that mileage adds up! But if you are doing a full Ironman, that is only half the story.",
         type: "multiple_choice",
-        labels: ["The mileage for each discipline totals 70.3 miles.", "Only 70.3 participants can compete in each race.", "A half ironman is exactly half the distance of a full ironman.", "Both A and C."],
+        labels: ["The mileage for each discipline totals 70.3 miles.", "Only 70.3 participants can compete in each race.", "A half Ironman is exactly half the distance of a full Ironman (140.6).", "Both A and C."],
         video: {display: "false", source: "N/A"},
         tri_tidbit:"Drafting is not allowed in triathlons and athletes aren't allowed to wear headphones."
 	},
@@ -67,8 +67,5 @@ var array_questions = [
 	},
 ];
 
-var array_answers = [];
 
-console.log(array_questions);
-console.log(array_answers);
-console.log(array_questions[1].statement);
+var array_answers = [];
